@@ -1,9 +1,12 @@
 {
 	"questions": [{
+		"idTitle": 100,
 		"title": "Cơ Bản 1",
 		"titleQ": [{
+			"idLevel": 101,
 			"level": "Dễ",
 			"levelQ":[{
+				"idStt": 1011,
 				"stt":"1",
 				"sttQ":{
 					"type": "Chọn bản dịch đúng",
@@ -14,6 +17,7 @@
 					"answerD": "I am a student",
 					"answer": "I am a man"
 				},
+				"idStt": 1012,
 				"stt":"2",
 				"sttQ": {
 					"type": "Dịch câu này",
@@ -24,6 +28,7 @@
 					"answerD": "Tôi là một người đàn ông", 
 					"answer": "Anh ấy là một người đàn ông"
 				},
+				"idStt": 1013,
 				"stt": "3",
 				"sttQ": {
 					"type": "Chọn bản dịch đúng",
@@ -35,8 +40,10 @@
 					"answer": "She is a woman"
 				}
 			}],
+			"idLevel": 102,
 			"level": "Trung bình",
 			"levelQ": [{
+				"idStt": 1021,
 				"stt": "1",
 				"sttQ":{
 					"type": "Dịch câu sau",
@@ -47,6 +54,7 @@
 					"answerD": "Anh ấy là một người đàn ông và tôi là một cậu bé",
 					"answer": "Anh ấy là một người đàn ông và tôi là một cậu bé"
 				},
+				"idStt": 1022,
 				"stt": "2",
 				"sttQ": {
 					"type": "Chọn bản dịch đúng",
@@ -57,6 +65,7 @@
 					"answerD": "He is a boy and I am a boy", 
 					"answer": "He is a man and I am a boy"
 				},
+				"idStt": 1023,
 				"stt": "3",
 				"sttQ": {
 					"type": "Dịch câu sau",
@@ -68,8 +77,12 @@
 					"answer": "Eat an apple"
 				}
 			}],
-			"Kho": {
-				"a": {
+			"idLevel": 103,
+			"level":"Kho",
+			"levelQ": [{
+				"idStt": 1031,
+				"stt": "1",
+				"sttQ":{
 					"type": "Dịch câu này",
 					"content": "Người phụ nữ uống nước",
 					"answerA": "The woman drinks water",
@@ -78,7 +91,9 @@
 					"answerD": "The woman drink bread",
 					"answer": "The woman drinks water"
 				},
-				"b": {
+				"idStt": 1032,
+				"stt": "2",
+				"sttQ":{
 					"type": "Dịch câu này",
 					"content": "Tôi ăn bánh mì",
 					"answerA": "I eats bread",
@@ -87,7 +102,9 @@
 					"answerD": "I eat an bread",
 					"answer": "I eat bread"
 				},
-				"c": {
+				"idStt": 1033,
+				"stt": "3",
+				"sttQ":{
 					"type": "Dịch câu sau",
 					"content": "I eat and drink",
 					"answerA": "Tôi ăn và tôi uống",
@@ -97,7 +114,7 @@
 					"answer": "Tôi ăn và uống"
 				}
 
-			}
+			}]
 		}],
 		"CB2": {
 			"De": {

@@ -1,8 +1,11 @@
 {
-	"questions": {
-		"CB1": {
-			"De": {
-				"a": {
+	"questions": [{
+		"title": "Cơ Bản 1",
+		"titleQ": [{
+			"level": "Dễ",
+			"levelQ":[{
+				"stt":"1",
+				"sttQ":{
 					"type": "Chọn bản dịch đúng",
 					"content": "Tôi là một người đàn ông",
 					"answerA": "I am a man",
@@ -29,7 +32,7 @@
 					"answerD": "She is a girl",
 					"answer": "She is a woman"
 				}
-			},
+			}],
 			"TB": {
 				"a": {
 					"type": "Dịch câu sau",
@@ -89,7 +92,7 @@
 				}
 
 			}
-		},
+		}],
 		"CB2": {
 			"De": {
 				"a": {
@@ -390,6 +393,5 @@
 			}
 		}
 
-	}
+	}]
 }
-
